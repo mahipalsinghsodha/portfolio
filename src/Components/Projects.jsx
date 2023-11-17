@@ -16,7 +16,7 @@ const Projects = () => {
             keyPoint1: 'Exercise with certified personal trainers whether you’re at home or on the road.',
             keyPoint2: 'Professionally designed programs take the guesswork out of exercising.',
             githubLink: 'https://github.com/mahipalsinghsodha/E-commerce-App',
-            deployedLink: 'https://calm-pink-bullfrog-ring.cyclic.cloud/',
+            deployedLink: 'https://apnaecommerce.cyclic.cloud/',
             tags: ['HTML', 'CSS', 'Javascript','React','Node']
         },
         {
