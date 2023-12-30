@@ -3,6 +3,7 @@ import React from 'react'
 import styled from 'styled-components'
 import myImage from '../Resources/Images/profilePic.jpg'
 import backgroundImage from '../Resources/Images/backgroundHome.jpg';
+import signature_pandadoc from '../Resources/Images/signature_pandadoc.png';
 const About = () => {
    
     return (
@@ -45,7 +46,7 @@ const About = () => {
                             I can contribute to individual and
                             company growth..</p>
                         <div>
-                            {/* <img src={signature} alt='Mohit_Signature' width='200px' /> */}
+                            <img src={signature_pandadoc} alt='Mohit_Signature' width='200px' />
                         </div>
                     </div>
                 </div>
