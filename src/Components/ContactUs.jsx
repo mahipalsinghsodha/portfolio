@@ -19,7 +19,7 @@ const ContactUs = () => {
     const handleSubmission = (e) => {
         e.preventDefault();
         if (data.name && data.email && data.subject && data.message) {
-            emailjs.send('service_po6idda', 'template_g5erg0q', data, 'Ob6YgTaYqeObolMjc')
+            emailjs.send('service_7e4d0b5', 'template_dzl7nbi', data, '6B9xTmgLEULxRK3zo')
                 .then((response) => {
                     setSubmit(true)
                 }).catch((error) => {
