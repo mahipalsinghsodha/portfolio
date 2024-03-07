@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import kfc from '../Resources/Images/Project/ecommerce.png';
 import college from '../Resources/Images/Project/college.png';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import pagination_bar from 'pagination'
 import StreamIcon from '@mui/icons-material/Stream';
 
 const Projects = () => {
@@ -30,6 +31,18 @@ const Projects = () => {
             githubLink: 'https://github.com/mahipalsinghsodha',
             deployedLink: 'http://chandrawatittcollege.co.in/',
             tags: ['HTML', 'CSS', 'Javascript']
+        },
+        {
+            id: 3,
+            title: 'Pagination Bar',
+            img: pagination_bar,
+            desc: 'Crafting an intuitive and responsive pagination bar for seamless navigation through content in a user-friendly interface.',
+            worked: 'Built-in 1 day by itself.',
+            keyPoint1: '',
+            keyPoint2: '',
+            githubLink: 'https://github.com/mahipalsinghsodha/pagenation_bar',
+            deployedLink: 'https://pagenation-bar.onrender.com/',
+            tags: ['HTML', 'CSS', 'React']
         },
         
     ]
