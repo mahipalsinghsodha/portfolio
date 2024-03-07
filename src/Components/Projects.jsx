@@ -4,6 +4,7 @@ import kfc from "../Resources/Images/Project/ecommerce.png";
 import college from "../Resources/Images/Project/college.png";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import pagi from "../Resources/Images/Project/bagination.jpg";
+import todo from "../Resources/Images/Project/todo.jpg";
 import StreamIcon from "@mui/icons-material/Stream";
 
 const Projects = () => {
@@ -36,14 +37,26 @@ const Projects = () => {
     },
     {
       id: 3,
-      title: "Pegination Bar",
+      title: "Pagination Bar",
       img: pagi,
       desc: "Crafting an intuitive and responsive pagination bar for seamless navigation through content in a user-friendly interface.",
       worked: "Built in 1 day by itself.",
       keyPoint1: "",
       keyPoint2: "",
       githubLink: "https://github.com/mahipalsinghsodha/pagination_bar",
-      deployedLink: "https://pagenation-bar.onrender.com/",
+      deployedLink: "https://pagination-bar.onrender.com/",
+      tags: ["HTML", "CSS", "Javascript,React"],
+    },
+    {
+      id: 4,
+      title: "ToDo List",
+      img: todo,
+      desc: "Building a dynamic and user-friendly ToDo app using React.js for effective task management and productivity.",
+      worked: "Built in 1 day by itself.",
+      keyPoint1: "",
+      keyPoint2: "",
+      githubLink: "https://github.com/mahipalsinghsodha/firebaseTodo",
+      deployedLink: "https://react-todo-qt3h.onrender.com/",
       tags: ["HTML", "CSS", "Javascript,React"],
     },
   ];
