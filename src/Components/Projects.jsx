@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import kfc from '../Resources/Images/Project/ecommerce.png';
 import college from '../Resources/Images/Project/college.png';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import pagination_bar from 'pagination'
+import pagination_bar from '../Resources/Images/Project/pagination.jpg';
 import StreamIcon from '@mui/icons-material/Stream';
 
 const Projects = () => {
